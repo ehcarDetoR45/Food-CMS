@@ -1,38 +1,55 @@
 .App {
   text-align: center;
+  color: rgb(236, 14, 121);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
+  min-height: 10vh;
+  background-color: rgb(24, 94, 193);
+  color: whitesmoke;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.fetch-api {
+  margin-top: 100px;
+}
+
+.recipes-page {
+  background-color: blueviolet;
+  color: black;
+}
+
+.about-page {
+  background-color: blueviolet;
+  color: black;
+}
+
+.contact-page {
+  background-color: blueviolet;
+  color: black;
+}
+
+.api-btn {
+  background-color: yellow;
+}
+
+.blog-card {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid rgb(246, 255, 0);
+  background-color: rgb(144, 0, 255);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blog-img {
+  height: 250px;
+  width: 250px;
 }
