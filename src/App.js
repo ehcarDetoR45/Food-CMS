@@ -6,6 +6,10 @@ import About from "./components/About";
 import Recipes from "./components/Recipes";
 import Contact from "./components/Contact";
 import { Route, Routes } from "react-router-dom";
+import Carousel from "./components/Components/Carousel";
+import CarouselSlide from "./components/Components/CarouselSlide";
+
+
 
 export default function App() {
   return (
@@ -17,6 +21,13 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+    <Carousel />
+    <CarouselSlide />
+
     </div>
   );
 }
+
+
+
+      
