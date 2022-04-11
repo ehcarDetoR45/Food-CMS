@@ -26,5 +26,3 @@ function Nav() {
 }
 
 export default Nav;
-
-//Ask Besslan how we can make a function so that the home nav tab only appears when you are off the home page.

@@ -19,7 +19,7 @@ export default function Recipes() {
 
   return (
     <><div className="recipes-page">
-      <h1>Recipe Page</h1>
+      <h1></h1>
       {blogs.map((blog, index) => {
         return (
           <Blog
