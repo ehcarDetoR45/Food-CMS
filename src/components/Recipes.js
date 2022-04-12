@@ -19,7 +19,7 @@ export default function Recipes() {
 
   return (
     <div className="recipes-page">
-      <h1>Recipe Page</h1>
+      <h2>Recipe Page</h2>
       {blogs.map((blog, index) => {
         return (
           <Blog
@@ -33,4 +33,3 @@ export default function Recipes() {
     </div>
   );
 }
-
