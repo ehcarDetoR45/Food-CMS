@@ -18,8 +18,8 @@ export default function Recipes() {
   }, []);
 
   return (
-    <><div className="recipes-page">
-      <h1></h1>
+    <div className="recipes-page">
+      <h2>Recipe Page</h2>
       {blogs.map((blog, index) => {
         return (
           <Blog
@@ -27,10 +27,6 @@ export default function Recipes() {
             title={blog.fields.foodtype}
             description={blog.fields.description}
             image={blog.fields.pic.fields.file.url} />
-
-        );
-      })}
-    </div><div><Blog /></div></>
-  );
+     </div>
+       );
 }
-
