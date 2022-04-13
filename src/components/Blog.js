@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Blog(props) {
   return (
     <div className="blog-card">
@@ -10,6 +11,8 @@ export default function Blog(props) {
         src={`https:${props.image}`}
         alt="{props.title}"
       />
+     
     </div>
+    
   );
 }

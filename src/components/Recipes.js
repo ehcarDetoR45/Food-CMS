@@ -26,10 +26,7 @@ export default function Recipes() {
             key={blog.sys.id}
             title={blog.fields.foodtype}
             description={blog.fields.description}
-            image={blog.fields.pic.fields.file.url}
-          />
-        );
-      })}
-    </div>
-  );
+            image={blog.fields.pic.fields.file.url} />
+     </div>
+       );
 }
